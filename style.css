@@ -1,104 +1,106 @@
 #contenedor {
-  background: url(img/imgHelen.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-@font-face {
-  font-family: "mifuente";
-  src: url(../fuentes/Asteratty.ttf);
-}
-#titulo {
-  background: rgb(241, 65, 153);
-  color: white;
-  margin-top: 0,01%;
-  margin-left: 3%;
-  float: left;
-  font-family: "mifuente";
-  font-size: 60px;
-  box-shadow: 0 2px 500px 300px rgb(241, 65, 153);
-}
-#nav {
-  color: black;
-  margin-top: 3%;
-  margin-left: 50%;
-  margin-right: 3%;
-  font-size: 17px;
-}
-#boton {
-  background-color: rgb(241, 65, 153);
-  color: black;
-  border-color: rgb(241, 65, 153);
-  border-width: 3%;
-  font-size: 16px;
-}
-#p {
-  color: floralwhite;
-  width: 400px;
-  height: 250px;
-  margin-top: 7%;
-  margin-left: 36%;
-  font-size: 17px;
-  text-align-last: center;
-  text-align: justify;
-}
-:root {
-  --facebook: #3b5999;
-  --instagram: #e4405f;
-  --pinterest: #bd081c;
-  --whatsapp: #00bb2d;
-}
-.redes-container {
-  display: flex;
-  height: 100px;
-  margin-top: 1%;
-  align-items: center;
-  justify-content: center;
-}
-.redes-container ul li {
-  display: inline-block;
-  margin: 0 10px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-}
-.redes-container ul li a {
-  background: rgb(50, 50, 50);
-  color: white;
-  display: block;
-  padding: 0 10px;
-  line-height: 50px;
-  font-size: 20px;
-  transition: 0.2s;
-  box-shadow: 0 3px 5px 0px white;
-}
-.redes-container ul:hover a {
-  filter: blur(2px);
-}
-.redes-container ul li a:hover {
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 3px 5px 0px rgb(241, 65, 153);
-  filter: none;
-}
-.redes-container ul li .facebook:hover {
-  background: var(--facebook);
-}
-.redes-container ul li .instagram:hover {
-  background: var(--instagram);
-}
-.redes-container ul li .pinterest:hover {
-  background: var(--pinterest);
-}
-.redes-container ul li .whatsapp:hover {
-  background: var(--whatsapp);
-}
-#footer {
-  background: rgb(70, 70, 70);
-  color: rgb(199, 196, 196);
-  width: 100%;
-  height: 25px;
-  margin-top: 75px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align-last: center;
-  text-align: justify;
-}
+    background: url(img/imgHelen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  @font-face {
+    font-family: "mifuente";
+    src: url(../fuentes/Asteratty.ttf);
+  }
+  #titulo {
+    background: rgb(120, 120, 120);
+    color: white;
+    margin-top: 0,01%;
+    margin-left: 3%;
+    float: left;
+    font-family: "mifuente";
+    font-size: 60px;
+    box-shadow: 0 2px 500px 300px rgb(120, 120, 120);
+  }
+  #nav {
+    color: black;
+    margin-top: 3%;
+    margin-left: 50%;
+    margin-right: 3%;
+    font-size: 17px;
+  }
+  #boton {
+    background-color: rgb(120, 120, 120);
+    color: black;
+    border-color: rgb(120, 120, 120);
+    border-width: 3%;
+    font-size: 16px;
+  }
+  #p {
+    color: black;
+    width: 400px;
+    height: 250px;
+    margin-top: 9%;
+    margin-left: 3%;
+    font-size: 20px;
+    text-align-last: center;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  :root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --pinterest: #bd081c;
+    --whatsapp: #00bb2d;
+  }
+  .redes-container {
+    display: flex;
+    height: 100px;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: right;
+  }
+  .redes-container ul li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  .redes-container ul li a {
+    background: rgb(50, 50, 50);
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 20px;
+    transition: 0.2s;
+    box-shadow: 0 3px 5px 0px rgb(120, 120, 120);
+  }
+  .redes-container ul:hover a {
+    filter: blur(2px);
+  }
+  .redes-container ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px white;
+    filter: none;
+  }
+  .redes-container ul li .facebook:hover {
+    background: var(--facebook);
+  }
+  .redes-container ul li .instagram:hover {
+    background: var(--instagram);
+  }
+  .redes-container ul li .pinterest:hover {
+    background: var(--pinterest);
+  }
+  .redes-container ul li .whatsapp:hover {
+    background: var(--whatsapp);
+  }
+  #footer {
+    background: rgb(70, 70, 70);
+    color: rgb(199, 196, 196);
+    width: 100%;
+    height: 25px;
+    margin-top: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align-last: center;
+    text-align: justify;
+  }
+  
